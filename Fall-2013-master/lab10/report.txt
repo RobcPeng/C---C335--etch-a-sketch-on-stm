@@ -1,0 +1,21 @@
+Kevin Kapoun
+kdkapoun
+Robert Peng
+rcpeng
+
+Lab10 report
+
+difficulties: we had issues along every step of the way. first we had difficutly pulling in information about the image, then we weren't sure how to convert the colors from 24 bit to 16 bit. our next issue was with printing the image. we have a for loop, but if the iterator is off by just one, the entire image comes out incredibly misshapen. we were not able to get the image to flip, or how to get the nunchuk to switch images. i tried to go to betti's office hours, but she moved her time to thursday. I skipped a different class to attend her office hoursbut she never came. 
+
+what i learned: i am becoming more comfortable with c every day, i learned more about initializing hardware.
+
+q1. there are many uses for realtime clocks on a computer. one use is in benchmarking tests. benchmarking tools rely on realtime hardware clocks to make sure that results are standardized and can be comparable. laptops use RTCs to keep time, that way computers always have the correct date and time when you restart the machine. a third use is for tampering protection. if a program stores the machine time every time a file is accessed it is easy to tell if other people are messing with files. 
+
+q2. the timer allows much finer control instead of the delay, in some situations it may require some delay of less than 1mS and the timer allows us to make those delays. 
+
+
+q3. in one sentence it is obvious why dma is better for transferring images. in the lab manual it says that without dma the board would support output of 50,000 pixels/second, but with dma it could support 735,000 pixels/second. it is over 10 times faster, which would be quite noticeable.
+
+q4. fat stands for File Allocation Table. the fat allocation table is a set of small clusters of memory, with between 2-32kb of space per cluster. one file's code is not necessarily all contiguous, each cluster is connected with the following as a linked list. because it is a linked list, if even one cluster is damaged, it won't point to the rest of the file and corrupt the entire file. 
+
+q5. fat32 is based on fat16. fat 16 allowed for 16kb clusters, but as computers evolved, so did their memory needs. fat32 has 32kb cluster sizes but is still compatible with some older hardware. with a fat16 harddrive, the absolute upper limit for a harddrive partition would be 5gb, but with fat32 we are able to make 16tb partitions. 

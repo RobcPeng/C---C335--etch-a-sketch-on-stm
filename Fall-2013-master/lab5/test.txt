@@ -1,0 +1,12 @@
+Robert Peng (rcpeng)
+
+
+Results:
+	I successfully created a make file that compiles two seperate c files together. 
+
+Difficulties:
+	I originally had difficulties understanding the problem itself. I asked the AI's alot of questions to get past that point.
+	I also had difficulties with char, turns out, it was an and/or mixup.
+What I learned:
+     To double check boolean statements. 
+     

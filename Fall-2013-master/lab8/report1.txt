@@ -1,0 +1,3 @@
+Q1. The assert line does not appear to be very useful at first glance. commenting it out and redownloading it didn't cause any visible changes to our board. What they do is reset the lcd to so that the clock is synchronized to the other clocks on the board. 
+
+q2. The spi library supports bidirectional data transmission, but the lab manual says that a lot of hardware is not built for it so it cannot reap the benefits. Instead we have to write these more complex read and write functions. we have to make a function that sends flags telling the hardware that it will be receiving data or needing to send it. 

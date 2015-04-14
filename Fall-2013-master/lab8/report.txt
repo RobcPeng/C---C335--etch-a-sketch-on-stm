@@ -1,0 +1,14 @@
+Q1. The assert line does not appear to be very useful at first glance. commenting it out and redownloading it didn't cause any visible changes to our board. What they do is reset the lcd to so that the clock is synchronized to the other clocks on the board. 
+
+q2. The spi library supports bidirectional data transmission, but the lab manual says that a lot of hardware is not built for it so it cannot reap the benefits. Instead we have to write these more complex read and write functions. we have to make a function that sends flags telling the hardware that it will be receiving data or needing to send it. 
+
+q3. The hex code gets passed in a nested array, and does something, we weren't quite sure. 
+
+q4.this fragment of code is a nested for loop that prints the pixels. it moves across the x-axis then y-axis, drawing char. If we did not have this code it would not print anything. 
+
+q5. ASCII characters are drawn using arrays in glcdfont. The array determines the proportions that the characters are drawn. 
+
+Difficulties:
+I had trouble initializing the lcd. There was so much more to initialize as compared to the led and uart, making it diffucult to keep track of everything. I am still not very comfortable with the library documentation. even though we were able to see everything we could do, it was hard to figure out what all we needed to include. 
+
+What did you learn: I'm getting more comfortable with C in general. we know more about initializing hardware now.

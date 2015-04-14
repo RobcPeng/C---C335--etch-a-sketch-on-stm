@@ -1,0 +1,13 @@
+Kevin Kapoun
+difficulties: this lab was one of the easier labs for us. usually we are still working on the lab on thursday but this time we were able to finish earlier. one of the most frustrating difficulties was the hardware. The linux machines wouldn't read the sd cards so to put music on them i had to put sd card in my phone and transfer it. often times the program would not run, but then if we reset it a few times and ejected and inserted the memory card a few times the same code would work. this made debugging difficult, as we weren't always sure what was going wrong. 
+I learned how to convert audio and read it from the SD card. Robert and I were able to make the menu fairly quickly. I learned that when developing, it isn't always the code I wrote that isn't working. 
+
+q1. it points to the base memory address
+
+q2
+
+q3 when we use dma, it gets flagged, but to move on we have to be able to reiterate. resetting the flag allows us to set the flag again and run 
+
+q4 there are faster ways of transferring 4 bytes than using xchange_datablock functions
+
+q5. both dma and audio player use a large amount of the buf, so we give them their own so they don't run into each other

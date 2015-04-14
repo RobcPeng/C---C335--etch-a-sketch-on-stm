@@ -1,0 +1,11 @@
+Difficulties: there were a few times that when we would start working after taking a break, sometimes the screen would be all staticy and we never really discovered why.  we had some issues getting data from the accel but we were able to figure it out.
+
+q1. the write commands go to the correct device because before it ever writes it gets instructions that set it to the proper device. 
+
+q2. The accelerometer data is too big, so we have to make it easier to work with. 
+
+q3. we defined three shorts, x y and z. then we took the data from the array of accelerometer data. 
+
+q4. the hardware might not be perfectly calibrated, so we can compensate to make it more accurate. 
+
+q5. we have a for loop that prints the information for the board. for example we print "compass!" at the top of the screen, it sends a printf statement every time it iterates through the loop. maybe there is some way we could move that to the top out of the for loop. that way it will stay on the display but we won't be sending a command for it to print every time.

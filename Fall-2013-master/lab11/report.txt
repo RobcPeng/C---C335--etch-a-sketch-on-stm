@@ -1,0 +1,7 @@
+-Kevin Kapoun
+-lab11 report
+-difficulties
+I wrote more of the queue function, while Robert contributed most to getting the leds to light up. getting the echo to work was equal work from both of us. We had issues getting it to echo, only just completing the lab seconds before our demo was due. Tim and Christian helped us debug, where we found issues in the uart and put/getchar functions. 
+
+-What i learned
+I learned how to use systick interrupts that ran faster than our original methods. I did all of the git work, branching and merging, I felt that the manual made it more complicated than it really was. I was a little confused at first but once i tried it out it made perfect sense. 
